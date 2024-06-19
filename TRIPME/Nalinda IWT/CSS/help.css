@@ -1,0 +1,72 @@
+.helpPortalBGC{
+    border:10px solid rgb(195, 224, 229,0.8);
+    border-radius: 10px;
+    margin-left: 3px;
+    background: rgb(195, 224, 229,0.8);
+    
+}
+.helpPortalTopic{
+    text-align: center;
+}
+
+.HelpemailName,.HelpReqName{
+    font-size: 20px;
+    margin-right: 0;
+}
+.Helpemail{
+    width:25%;
+    height:25px;
+    border-radius: 10px;
+
+}
+.HelpReq{
+    width:45%;
+    height:300px;
+    border-radius: 10px;
+}
+.HelpButton{
+    height: 35px;
+    width:70px;
+    margin-right: 0;
+    border-radius: 15px;
+}
+.HelpButton:hover{
+    background-color: #0b739f;
+}
+.RecStatusMsg{
+    border:10px solid rgb(195, 224, 229,0.8);
+    border-radius: 10px;
+    margin-left: 3px;
+    background: rgb(195, 224, 229,0.8);
+
+}
+.helpPara{
+    text-indent: 30px;
+    text-align: justify;
+    padding:15px;
+  
+   
+}
+.helpPortalBG{
+ border: 1px solid black;
+padding: 8px 8px;
+  
+}
+.helpformContent1{
+    display: inline;
+}
+.helpformContent2{
+    display: flex;
+    float:right;
+    margin-top: -300px;
+    margin-right: 200px;
+}
+
+.helpLogo{
+    width:300px;
+    float: right;
+}
+
+
+
+

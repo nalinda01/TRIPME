@@ -1,0 +1,107 @@
+.container {
+    width: 500px;
+    height: auto;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.but1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 35px;
+    width: 210px;
+    border-style: none;
+    background-color: rgba(35, 123, 82, 0.649);
+    color: white;
+}
+
+.but1:hover {
+    background-color: rgb(42, 171, 111);
+    color: white;
+}
+
+.inp {
+    outline: none;
+}
+
+.imgD {
+    width: 200px;
+    height: 225px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 160px;
+    display: inline-block;
+    background-color: white;
+}
+
+.detD {
+    background-color: white;
+    padding-top: 40px;
+    margin-top: 30px;
+    margin-left: 160px;
+    width: 600px;
+    height: 340px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: right;
+    display: inline-block;
+}
+
+.des {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    width: 450px;
+}
+
+.labS {
+    font-size: 18px;
+}
+
+.inpS {
+    margin-right: 100px;
+    font-size: 16px;
+    outline: none;
+}
+
+.desD {
+    width: 450px;
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+.desP {
+    margin-left: 50px;
+}
+
+.btn1 {
+    margin-left: 910px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 35px;
+    width: 210px;
+    border-style: none;
+    background-color: rgba(230, 62, 62, 0.781);
+    color: white;
+}
+
+.btn1:hover {
+    background-color: rgb(206, 61, 73);
+    color: white;
+    cursor: pointer;
+}
+
+body {
+    background-color: rgba(203, 209, 215, 0.63);
+    font-family: "Cambria";
+}
+
+.hdr {
+    margin-left: 550px;
+    margin-top: 50px;
+    color: rgb(11, 20, 68);
+}
+
+.ta {
+    width: 400px;
+}

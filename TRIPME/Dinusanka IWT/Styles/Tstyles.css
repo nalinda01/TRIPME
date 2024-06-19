@@ -1,0 +1,99 @@
+.container {
+  width: 400px;
+  height: 950px;
+  padding:20px;
+  margin-left:120px;
+  background-color: #93dbea;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block; 
+    margin-top: 10px; 
+  } 
+  body {
+    display: flex;
+    flex-direction: column;
+          font-family: Arial, sans-serif;
+    background-image: url("../Images/t_pic.jpg");
+    background-repeat: no-repeat;
+  }
+  
+  input[type="text"],input[type="email"],input[type="number"],input[type="radio"],input[type="confirm_password"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+   
+  }
+ 
+  
+ 
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #394bd3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+button:hover {
+  background-color: #1ae43c;
+  color: rgb(255, 255, 255);
+} 
+button :active{
+
+  background-color: rgb(255, 255, 255);
+  
+  }
+.radio-group {
+  margin-bottom: 10px;
+}
+
+.radio-group{
+  display: flex;
+  flex-direction: row
+
+}
+.radio-group{
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  padding: 10px;
+  cursor: pointer;
+}
+ 
+.radio-group label {
+  display: inline-block;
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  background-color: #295ef0;
+}
+a:visited {color:#120f6f;}
+a:hover {color:rgb(246, 42, 42);}

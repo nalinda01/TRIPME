@@ -1,0 +1,31 @@
+
+.destinationResults{
+    border:10px solidrgb(195, 224, 229,0.8);
+    border-radius: 10px;
+    margin-left: 3px;
+    background: rgba(195, 226, 232, 0.8);
+}
+.destinationImg{
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+    box-sizing:border-box;
+}
+.destinationDescription{
+    text-indent: 30px;
+    text-align: justify;
+    padding:15px;
+}
+.createBookingButton{
+    padding: 10px 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color:rgb(110, 162, 222);
+}
+.createBookingButton:hover{
+    background-color:rgb(0, 119, 255);
+}

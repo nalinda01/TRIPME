@@ -1,0 +1,203 @@
+*{
+    font-family: Inter, sans-serif;
+}
+.logo{
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+    box-sizing:border-box;
+}
+.Top{
+    background-color:#05445E;
+    border:6px solid #05445E;
+    margin-left:-5px;
+    margin-top:-8px;
+    width: 100%;
+    
+}
+body{
+    background-color:rgba(220, 218, 218, 0.54);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    height: 100vh;
+    min-height :100%;
+    display:flex;
+    flex-direction:column;
+
+}
+footer {
+background-color: #05445E;
+padding: 10px;
+text-align: center;
+margin-left: -5px;
+margin-bottom: -5px;
+width: 100%;
+margin-top:auto;
+
+}
+
+.ftContactUs{
+color:white;
+font-size: 14px;
+text-align: left;
+float:left;
+
+}
+.footerLinks{
+margin-left: auto;
+margin-right: auto;
+color:white;
+text-align: center;
+display:inline-block;
+margin-left: -40px;
+
+
+}
+.footerLinks a,.ftContactUs a {
+color:white;
+}
+.socialMedia{
+color:white;
+float:right;
+font-size: 14px;
+margin-right: 50px;
+
+}
+.SMicons{
+width:110px;
+height: 20px;
+
+}
+#newsLetter{
+border:2px solid #2372c1;
+border-radius: 20px;
+}
+#nwsLetterSubmitbtn{
+border:2px solid #2372c1;
+border-radius: 20px;
+}
+
+.logologin{
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block ;
+    box-sizing:border-box;
+    padding:8px;
+}
+.adminLogin{
+    background-color: rgba(195, 226, 232, 0.8);
+    border:black solid 3px;
+    border-radius: 15px;
+    padding:5px;
+    margin: auto;
+    display:block;
+    box-sizing:border-box;
+}
+
+.adminUsername,.adminPassword{
+    width:300px;
+    height: 30px;
+    border-radius: 5px;
+}
+.adminLoginButton{
+    width:75px;
+    height:30px;
+    border-radius: 10px;
+}
+.ftContactUs,.footerLinks , .copyright{
+    font-size: 12px;
+}
+.grid-container {
+    display: flex;
+    justify-content:space-between;
+    
+  }
+
+  .grid-item {
+    flex-basis: 25%;
+    padding: 5px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .userData {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  
+  .userData th,
+  .userData td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .userData th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .admininput {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .update,
+  .deleteButton{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 80px;
+  }
+  
+  .update {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+.deleteButton {
+    background-color:red;
+    color: white;
+  }
+  
+  .logoutButton:hover,.deleteButton:hover,.update:hover,.responseButton:hover{
+    opacity: 0.6;
+}
+  
+.responseButton{
+    background-color:rgb(50, 50, 211);
+    color: white;
+    width:150px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.logoutButton{
+  background-color:rgb(3, 45, 65);
+  color: white;
+  margin-top:5px;
+  margin-bottom:5px;
+  width:150px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+/*
+.table-container {
+    max-height: 300px; 
+    overflow:visible;
+}*/
+  
+  
+  
